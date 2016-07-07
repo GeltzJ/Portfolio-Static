@@ -1,0 +1,93 @@
+@keyframes back-color{
+    0%, 100% {background-color: cornflowerblue;}
+    50% {background-color:dodgerblue;}
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(malgun.ttf');
+}
+
+body, h1, h2 {
+    margin: 0px;
+    margin-left: 5px;
+    border: 5px;
+    padding: 0px;
+    background-color: cornflowerblue;
+    animation-name: back-color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+h3 {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+ul{
+    margin-left: 20px
+}
+
+.white_space {
+    background-color: aliceblue;
+    margin-left: 100px;
+    padding-bottom: 500px;
+}
+
+h4 {
+    
+    margin-left: 30px;
+}
+
+button {
+    position:absolute;
+    font-size: 23px;
+    margin-top: 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    animation-name: back-color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+p {
+    padding: 10px 10px 10px 10px;
+    font-family: monospace;
+    font-size: 20px
+}
+.port {
+    position:absolute;
+    font-size: 23px;
+    margin-top: 180px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    animation-name: back-color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.con {
+    position:absolute;
+    font-size: 23px;
+    margin-top: 950px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    animation-name: back-color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
